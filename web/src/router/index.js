@@ -3,6 +3,7 @@ import HomeView from '@/views/home/HomeView.vue'
 import CalendarView from '@/views/calendar/CalendarView.vue'
 import StatisticsView from '@/views/statistics/StatisticsView.vue'
 import UserView from '@/views/user/UserView.vue'
+import NewBookkeepingView from '@/views/bookkeeping/NewBookkeepingView.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/user',
     name: 'user',
     component: UserView,
+  },
+  {
+    path: '/newbookkeeping',
+    name: 'newbookkeeping',
+    component: NewBookkeepingView,
   },
 ]
 
